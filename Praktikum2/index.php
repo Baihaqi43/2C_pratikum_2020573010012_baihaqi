@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<?php 
-    $nama = "ichsana sabila";
-    echo "$nama berkata / katakan
-namamu!\"";
-    ?>
+<html>
+    <body>
+        <?php
+            echo "Hello word"
+        ?>
+    </body>
+</html>
 </body>
 </html>
