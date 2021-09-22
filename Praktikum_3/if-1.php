@@ -8,11 +8,12 @@
 </head>
 <body>
     <?php
-    $val1 = "Jika sedang belajar, ";
-    $val2 = "harap jangan ribut ";
-    echo "mengabungkan 2 string val 1 dengan val 2:";
-    echo $val1. $val2;
-    echo "<br>";
-    ?>ja
+    $d = date("D");
+    if ($d=="Sat")
+    echo "Selamat berakhir pekan!";
+    else
+    echo "Selamat belajar";
+?>
+    
 </body>
 </html>
