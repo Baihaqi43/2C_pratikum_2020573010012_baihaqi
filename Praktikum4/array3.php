@@ -8,16 +8,14 @@
 </head>
 <body>
     <?php
-    $anak [0] = "Faruq";
-    $anak [1] = "Alya" ;
+    $anak [0] = "faruq";
+    $anak [1] = "Alya";
     $anak [2] = "Zahro";
 
-    echo "isi array \$anak[0] adalah $anak[0]";
-    echo "<br>";
-    echo "isi array \$anak[1] adalah $anak[1]";
-    echo "<br>";
-    echo "isi array \$anak[2] adalah $anak[2]";
-    echo "<br>";
+    foreach ($anak as $value) {
+        echo "Nama anak  : $value";
+        echo "<br>";
+    }
     ?>
 </body>
 </html>
