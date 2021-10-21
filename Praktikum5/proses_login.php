@@ -7,10 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Input</h1>
-        <form action="met_postproses.php" method="POST">
-            alamat : <input type="text" name="alamat" size="50">
-            <input type="submit" value="simpan">
-        </form>
+    <?php
+    $username=$_POST ["username"];
+    $password=$_POST ["password"];
+    ?>
+    Username : <?php echo $username?>
+    <br>
+    Password : <?php echo $password?>
+    <br>
 </body>
 </html>

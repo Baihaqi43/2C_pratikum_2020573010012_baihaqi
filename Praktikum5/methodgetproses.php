@@ -1,9 +1,13 @@
-<html>
-    <heaad>
-        <title>method get proses!</title>
-    </heaad>
-    <body>
-        Nama yang anda inputkan adalah :
-        <?php echo $_GET["nama"]?>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METHOD GET PROSES</title>
+</head>
+<body>
+Nama yang anda inputkan adalah :
+    <?php echo $_GET["nama"]?>
+</body>
 </html>

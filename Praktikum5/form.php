@@ -7,10 +7,13 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Input</h1>
-        <form action="met_postproses.php" method="POST">
-            alamat : <input type="text" name="alamat" size="50">
-            <input type="submit" value="simpan">
-        </form>
+<h2>Dumet School</h2>
+   <form action="contohproses.php" method="get">
+      Nama: <input type="text" name="username" />
+      <br />
+      E-Mail: <input type="text" name="email" />
+      <br />
+      <input type="submit" value="Proses" >
+   </form>
 </body>
 </html>
