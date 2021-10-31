@@ -7,12 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="proses.php" method="GET">
-        <label for="">Nama Depan :</label>
-        <input type="Number" name = nama_depan>
-    </form>
     <?php
-
+    $koneksi = mysqli_connect ("localhost","root","","udemy");
+    if ($koneksi){
+        echo "koneksi berhasil";
+    }
+    else {
+        echo "koneksi gagal";
+    }
     ?>
 </body>
 </html>
