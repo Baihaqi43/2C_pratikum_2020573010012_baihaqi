@@ -44,7 +44,7 @@
     
     <!-- sidebar -->
     <main>
-      <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px ; height: 600px">
+      <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;  height: 600px">
         <!-- <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
           <span class="fs-4">Sidebar</span>
@@ -62,7 +62,7 @@
             </a>
           </li>
           <li>
-          <a href="#" class="nav-link active" aria-current="page">
+          <a href="peminjaman.php" class="nav-link link-dark">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill me-2" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
           </svg>
@@ -70,7 +70,7 @@
             </a>
           </li>
           <li>
-            <a href="mahasiswa.php" class="nav-link link-dark">
+          <a href="#" class="nav-link active" aria-current="page">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people-fill me-2" viewBox="0 0 16 16">
             <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
             <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
@@ -80,7 +80,7 @@
             </a>
           </li>
           <li>
-            <a href="dosen.php" class="nav-link link-dark">
+          <a href="dosen.php" class="nav-link link-dark">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle me-2" viewBox="0 0 16 16">
             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
