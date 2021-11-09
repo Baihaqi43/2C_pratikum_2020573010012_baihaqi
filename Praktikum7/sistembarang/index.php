@@ -42,10 +42,16 @@
     <?php require "navbar.php";?>
     
     <!-- sidebar -->
-    <?php require "sidebar.php";?>
-    <!--akhir sidebar-->
-    <h2>SISTEM PEMINJAMAN BARANG JURUSAN TIK</h2>
+    <div class="row">
+      <div class="col-2">
+      <?php require "sidebar.php";?>
+      </div>
+      <div class="col-10">
+      <h3 class="pt-4 text-center">Selamat Datang Di Sistem Peminjaman Barang Jurusan TIK</h3>
+      </div>
+    </div>
     
+    <!--akhir sidebar-->
     <script src="/js/bootstrap.bundle.min.js"></script>
 
     <script src="/js/sidebars.js"></script>

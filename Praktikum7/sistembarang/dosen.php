@@ -42,7 +42,9 @@
     <?php require "navbar.php";?>
     
     <!-- sidebar -->
-    <main>
+      <div class="row">
+        <div class="col-2">
+        <main>
       <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px ; height: 600px">
         <!-- <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap" /></svg>
@@ -101,6 +103,11 @@
       </div>
       <div class="b-example-divider"></div>
     </main>
+        </div>
+        <div class="col-10 pt-3 text-center">
+          <h3>Halaman Untuk Dosen</h3>
+        </div>
+      </div>
 
     
     <script src="/js/bootstrap.bundle.min.js"></script>
