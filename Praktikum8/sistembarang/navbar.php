@@ -14,14 +14,14 @@
       <div class="dropdown ms-auto me-3">
           <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2" />
-            <strong>BAIHAQI</strong>
+            <strong>Baihaqi</strong>
           </a>
           <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
             <li><a class="dropdown-item" href="#">keluar</a></li>
             <li><a class="dropdown-item" href="#">setting</a></li>
             <li><a class="dropdown-item" href="#">Biodata</a></li>
             <li><hr class="dropdown-divider" /></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
+            <li><a class="dropdown-item" href="Proses/sing-out.php">Sign out</a></li>
           </ul>
         </div>
     </div>
