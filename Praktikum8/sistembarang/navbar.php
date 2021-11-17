@@ -11,7 +11,7 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light fw-normal" type="submit">Search</button>
       </form>
-      <div class="dropdown ms-auto me-3 ">
+      <div class="dropdown ms-auto me-3">
           <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2" />
             <strong>BAIHAQI</strong>
