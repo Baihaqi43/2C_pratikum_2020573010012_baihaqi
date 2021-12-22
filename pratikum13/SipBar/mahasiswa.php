@@ -1,5 +1,10 @@
-<?php
-  require "Proses/session.php";
+<?php 
+require "proses/koneksi.php";
+  $query = mysqli_query($conn, "SELECT * FROM tb_user WHERE username = '$_SESSION[username]'");
+  $data = mysqli_fetch_array($query);
+  if($data['level'] != 'admin')
+  //exit();
+   echo "<script>window.location='home';</script>";
 ?>
 <!doctype html>
 <html lang="en">
@@ -11,57 +16,31 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Sistem Informasi</title>
+    <title>SIPBAR = Sistem Informasi Peminjaman Barang Jurusan TIK</title>
   </head>
+
   <body>
+        <!--Header-->
+        <?php
+        require "header.php";
+        ?>
+        <!--Akhir Header-->
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/" />
-
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link href="/css/sidebars.css" rel="stylesheet" />
-  </head>
-  <body>
-    
-    <!-- navbar -->
-    <?php require "navbar.php";?>
-    
-    <!-- sidebar -->
-    <div class="row no-gutters">
-      <div class="col-3">
-      <?php require "sidebar.php";?>
+        <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <?php
+            require "sidebar.php";
+            ?>
+          </div>
+          <!--Akhir Sidebar-->
+          <!--Content-->
+          <div class="col-9">
+          <h2>MAHASISWA</h2>
+          </div>
+        <!--Akhir content-->
+        </div>
       </div>
-      <div class="col-9">
-        <!--konten-->
-      <h3 class="pt-4 text-center">Selamat Datang Di Sistem Peminjaman Barang Jurusan TIK</h3>
-      </div>
-    </div>
-    
-    <!--akhir sidebar-->
-    <script src="/js/bootstrap.bundle.min.js"></script>
-
-    <script src="/js/sidebars.js"></script>
-
-
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
